@@ -12,7 +12,7 @@ control
     
 ## Screenshot
 
-TODO
+![](https://raw.githubusercontent.com/Softmotions/nativescript-plugin-google-signin-button/master/docs/google-sign-in.png)
 
 ## Usage 
 
