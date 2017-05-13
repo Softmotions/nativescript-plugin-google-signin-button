@@ -1,14 +1,15 @@
+/docs
 .idea
 .vscode
 *.iml
 *.ipr
+*.ts
 platforms/android/libraryproject/
 docs
 README.md
 CHANGELOG.md
 node_modules
 *.tgz
-demo/
-*.ts
+/demo
 !*.d.ts
 

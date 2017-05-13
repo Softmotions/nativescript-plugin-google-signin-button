@@ -1,29 +1,35 @@
 {
-    "name": "nativescript-plugin-google-signin-button",
-    "version": "1.0.0",
-    "description": "A NativeScript plugin to create native Google sign-in button.",
-    "author": "Anton Adamansky <adamansky@gmail.com> (https://github.com/Softmotions)",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Softmotions/nativescript-plugin-google-signin-button"
-    },
-    "main": "gsb",
-    "nativescript": {
-        "platforms": {
-            "android": "3.0.0",
-            "ios": "3.0.0"
-        }
-    },
-    "scripts": {
-        "prepublish": "tsc"
-    },
-    "peerDependencies": {
-        "tns-core-modules": "^3.0.0"
-    },
-    "devDependencies": {
-        "tns-core-modules": "^3.0.0",
-        "tns-platform-declarations": "^3.0.1",
-        "typescript": "^2.3.2"
+  "name": "nativescript-plugin-google-signin-button",
+  "version": "1.0.0",
+  "description": "A NativeScript plugin to create native Google sign-in button.",
+  "author": "Anton Adamansky <adamansky@gmail.com> (https://github.com/Softmotions)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Softmotions/nativescript-plugin-google-signin-button"
+  },
+  "main": "gsb",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0"
     }
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0"
+  },
+  "devDependencies": {
+    "tns-core-modules": "^3.0.0",
+    "tns-platform-declarations": "^3.0.1",
+    "typescript": "^2.3.2"
+  },
+  "keywords": [
+    "NativeScript",
+    "Authentication",
+    "Google",
+    "SignIn",
+    "Google sign-in"
+  ]
 }
