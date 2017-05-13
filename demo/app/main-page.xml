@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded"
+      xmlns:gsb="nativescript-plugin-google-signin-button">
+    <ScrollView>
+        <StackLayout>
+            <gsb:GsbButton id="gsbButton" horizontalAlignment="left" tap="gsbTap"/>
+            <gsb:GsbButton horizontalAlignment="right" tap="gsbTap"/>
+            <gsb:GsbButton horizontalAlignment="stretch" tap="gsbTap"/>
+
+            <gsb:GsbButton colorStyle="dark" horizontalAlignment="left" tap="gsbTap"/>
+            <gsb:GsbButton colorStyle="light" horizontalAlignment="left" tap="gsbTap"/>
+            <gsb:GsbButton sizeStyle="wide" horizontalAlignment="left" tap="gsbTap"/>
+            <gsb:GsbButton colorStyle="dark" sizeStyle="wide" horizontalAlignment="left" tap="gsbTap"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

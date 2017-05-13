@@ -1,0 +1,13 @@
+android {
+    productFlavors {
+        "gsb" {
+            dimension "gsb"
+        }
+    }
+}
+
+dependencies {
+    compile "com.google.android.gms:play-services-base:10.2.4"
+}
+
+

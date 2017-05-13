@@ -1,0 +1,18 @@
+{
+  "nativescript": {
+    "id": "com.softmotions.gsbdemo",
+    "tns-android": {
+      "version": "3.0.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-plugin-google-signin-button": "file:..",
+    "tns-core-modules": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.24.1",
+    "babel-types": "6.24.1",
+    "babylon": "6.17.0",
+    "lazy": "1.0.11"
+  }
+}

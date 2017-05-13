@@ -1,0 +1,14 @@
+.idea
+.vscode
+*.iml
+*.ipr
+platforms/android/libraryproject/
+docs
+README.md
+CHANGELOG.md
+node_modules
+*.tgz
+demo/
+*.ts
+!*.d.ts
+
