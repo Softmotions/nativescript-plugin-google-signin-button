@@ -1,6 +1,6 @@
 # A NativeScript plugin to create native Google sign-in button
 
-Supports Android platform only.
+Supports Nativescript **3.0.x** and **Android platform** only.
 
 Adapts the native Android 
 [SignInButton](https://developers.google.com/android/reference/com/google/android/gms/common/SignInButton.html)
