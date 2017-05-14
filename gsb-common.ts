@@ -5,6 +5,8 @@ import {Property} from "tns-core-modules/ui/core/properties";
 
 export class GsbButtonBase extends View implements definitions.GsbButton {
 
+    public static tapEvent = "tap";
+
     colorStyle: GsbButtonColorStyle;
 
     sizeStyle: GsbButtonSizeStyle;

@@ -21,8 +21,6 @@ enum Sizes {
 
 export class GsbButton extends GsbButtonBase {
 
-    public static tapEvent = "tap";
-
     createNativeView(): Object {
         const btn = new com.google.android.gms.common.SignInButton(this._context);
         const me = new WeakRef(this);
@@ -34,7 +32,7 @@ export class GsbButton extends GsbButtonBase {
 
                 onClick: function (v) {
                     if (this.owner) {
-                        this.owner._emit("tap");
+                        this.owner._emit(GsbButtonBase.tapEvent);
                     }
                 }
             }));
