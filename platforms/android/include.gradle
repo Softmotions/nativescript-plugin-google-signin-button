@@ -7,7 +7,7 @@ android {
 }
 
 dependencies {
-    compile "com.google.android.gms:play-services-base:10.2.+"
+    compile "com.google.android.gms:play-services-base:11.0.+"
 }
 
 
