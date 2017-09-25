@@ -33,6 +33,15 @@ control
         </ScrollView>
     </Page>
 
+##Angular implementation
+    
+    - Within Component:
+    
+    import {registerElement} from "nativescript-angular/element-registry";
+
+    // Important - must register GsbButton plugin in order to use in Angular templates
+    registerElement("GsbButton", () => require('nativescript-plugin-google-signin-button').GsbButton);
+
 
 ## Attributes
 
